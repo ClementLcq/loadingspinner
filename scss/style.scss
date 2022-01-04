@@ -80,11 +80,12 @@ body {
 
 @keyframes content {
     0% {
-        transform: translateY(-9999px);
+        opacity: 0;
+    }
+    70% {
         opacity: 0;
     }
     100% {
-        transform: translateY(0);
         opacity: 1;
     }
 }
